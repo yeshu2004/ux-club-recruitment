@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'HelveticaNow';
+  src: url("/HelveticaNowDisplay-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
