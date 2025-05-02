@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="h-fit w-full overflow-hidden">
             <motion.h1 initial={{y: 100}}  animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, ease: "easeOut", delay: 1.5 }} className="uppercase text-[5rem] text-[#FC4503] leading-[0.9] font-[HelveticaNow]">
-              Speak
+              Sp<span className="text-[#FF9A0A]">*</span>ak
             </motion.h1>
           </div>
         </div>
