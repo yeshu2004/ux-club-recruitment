@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full relative">
-      <div className="h-screen w-full relative overflow-hidden">
+    <div className="h-ull w-full relative block md:hidden">
+      <div className="h-[100dvh] w-full relative overflow-hidden">
         {/* Background Image */}
         <Image
           alt="Background"
@@ -30,7 +30,7 @@ export default function Home() {
           <h1 className="uppercase text-[5rem] text-[#FC4503] leading-[0.9] font-[HelveticaNow]">Speak</h1>
         </div>
       </div>
-      <div className="bg-[#FFE3BB] h-screen w-full">
+      <div className="bg-[#FFE3BB] h-[100dvh] w-full">
         <div className="text-center pt-28 px-5">
           <div className="text-[#FC4503] font-[HelveticaNow] uppercase leading-none">
             <h1 className="text-[2.7rem] leading-none">THE LOST</h1>
